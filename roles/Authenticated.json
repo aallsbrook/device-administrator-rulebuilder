@@ -1,0 +1,140 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 0,
+                "Name": "AddColumnsToDeviceTable",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 0,
+                "Name": "AddNewDeviceType",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "AddNewTypeForDevice",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "DeleteMessageFromHistory",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "GetAllUsersForSystem",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "GetDeviceColumns",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "GetTypeSchema",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "NewTypeForDevice",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "PublishMessageToTopic",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "UpdateDevice",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 0,
+                "Name": "UpdateDeviceTypeSchema",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 0,
+                "Name": "fetchMesageHistoryForDevice",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "86a8d3ae0bb2ebd1d2bbbfddef5e",
+                "Items": [],
+                "Level": 7,
+                "Name": "86a8d3ae0bb2ebd1d2bbbfddef5e"
+            },
+            {
+                "Columns": [],
+                "ID": "c6ddd8ae0b88bbc190c7bdb2d48301",
+                "Items": [],
+                "Level": 7,
+                "Name": "c6ddd8ae0b88bbc190c7bdb2d48301"
+            },
+            {
+                "Columns": [],
+                "ID": "eed7f1ad0bc8bfdce1a6b6a489b601",
+                "Items": [],
+                "Level": 7,
+                "Name": "eed7f1ad0bc8bfdce1a6b6a489b601"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 5
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [
+            {
+                "Level": 0,
+                "Name": "devadm Device Administrator",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 7,
+                "Name": "TryingVisualizations",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            },
+            {
+                "Level": 1,
+                "Name": "deviceAdministrator",
+                "SystemKey": "e0bf8eaf0bc48199d5d69c919942"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 1
+        }
+    }
+}
